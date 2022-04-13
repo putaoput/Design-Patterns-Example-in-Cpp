@@ -2,6 +2,5 @@
 #include <iostream>
 int main(){
     TestObserver();
-
     return 0;
 }

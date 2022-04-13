@@ -78,7 +78,6 @@ class CurrentConditionsDisplay:
 
 void TestObserver(){
     WeatherData* weather_data = new WeatherData();
-
     CurrentConditionsDisplay* current_conditions_display = new CurrentConditionsDisplay(weather_data); 
     
     weather_data->SetMeasurements(80, 65, 30.4f);
